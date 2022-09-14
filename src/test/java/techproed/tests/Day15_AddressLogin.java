@@ -19,3 +19,16 @@ public class Day15_AddressLogin {
         addressLoginPage.logInButton.click();
     }
 }
+
+
+              /*
+              •Name:
+	•US100208_Customer_Login
+	•Description:
+	•User should be able login as customer
+	•Acceptance Criteria:
+	•As customer, I should be able to log in the application
+	•
+	•Customer email: customer@bluerentalcars.com
+	•Customer password: 12345
+               */

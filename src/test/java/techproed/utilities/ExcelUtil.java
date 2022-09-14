@@ -21,7 +21,7 @@ public class ExcelUtil {
             //getting the worksheet
             workSheet = workBook.getSheet(sheetName);
             //asserting if sheet has data or not
-            Assert.assertNotNull(workSheet, "Worksheet: \"" + sheetName + "\" was not found\n");
+            Assert.assertNotNull(workSheet, "Worksheet: " + sheetName + " was not found");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

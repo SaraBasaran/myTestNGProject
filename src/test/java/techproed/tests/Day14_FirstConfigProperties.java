@@ -9,7 +9,7 @@ public class Day14_FirstConfigProperties {
     @Test
     public void firstConfigTest(){
 
-        Driver.getDriver().get(ConfigReader.getProperty("url_test_techproed"));
+        Driver.getDriver().get(ConfigReader.getProperty("app_url"));
         Driver.closeDriver();
 
     }
